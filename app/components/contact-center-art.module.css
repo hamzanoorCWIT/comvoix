@@ -1,0 +1,15 @@
+.scene {
+  width: 100%;
+  max-height: none;
+  overflow: visible;
+}
+.panelEdge {
+  stroke: var(--art-border, #cbd3dd);
+  stroke-width: 1;
+}
+.card {
+  filter: drop-shadow(0 8px 10px rgb(0 0 0 / 9%));
+}
+@media (max-width: 600px) {
+  .scene { width: calc(100% + 32px); max-width: none; margin-inline: -16px; }
+}
