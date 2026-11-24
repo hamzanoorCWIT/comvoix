@@ -30,8 +30,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# Environment Configuration
+# Ignore environment files to protect sensitive credentials,
+# API keys, database passwords, and application secrets.
+# Allow the example file to be shared as a configuration template.
+
 .env*
+!.env.example
 
 # vercel
 .vercel
